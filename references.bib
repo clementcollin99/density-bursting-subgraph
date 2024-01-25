@@ -1,4 +1,22 @@
-@techreport{10.5555/894477,
+@article{dbs,
+author = {Chu, Lingyang and Zhang, Yanyan and Yang, Yu and Wang, Lanjun and Pei, Jian},
+title = {Online density bursting subgraph detection from temporal graphs},
+year = {2019},
+issue_date = {September 2019},
+publisher = {VLDB Endowment},
+volume = {12},
+number = {13},
+issn = {2150-8097},
+url = {https://doi.org/10.14778/3358701.3358704},
+doi = {10.14778/3358701.3358704},
+abstract = {Given a temporal weighted graph that consists of a potentially endless stream of updates, we are interested in finding density bursting subgraphs (DBS for short), where a DBS is a subgraph that accumulates its density at the fastest speed. Online DBS detection enjoys many novel applications. At the same time, it is challenging since the time duration of a DBS can be arbitrarily long but a limited size storage can buffer only up to a certain number of updates. To tackle this problem, we observe the critical decomposability of DBSs and show that a DBS with a long time duration can be decomposed into a set of indecomposable DBSs with equal or larger burstiness. We further prove that the time duration of an indecomposable DBS is upper bounded and propose an efficient method TopkDBSOL to detect indecomposable DBSs in an online manner. Extensive experiments demonstrate the effectiveness, efficiency and scalability of TopkDBSOL in detecting significant DBSs from temporal graphs in real applications.},
+journal = {Proc. VLDB Endow.},
+month = {sep},
+pages = {2353–2365},
+numpages = {13}
+}
+
+@techreport{goldberg,
 author = {Goldberg, A. V.},
 title = {Finding a Maximum Density Subgraph},
 year = {1984},
@@ -7,7 +25,7 @@ address = {USA},
 abstract = {(none)}
 }
 
-@InProceedings{10.1007/978-3-540-39658-1_15,
+@InProceedings{segment,
 author="Chung, Kai-min
 and Lu, Hsueh-I",
 editor="Di Battista, Giuseppe
@@ -21,3 +39,24 @@ pages="136--147",
 abstract="We address a fundamental string problem arising from analysis of biomolecular sequences. The input consists of two integers L and U and a sequence S of n number pairs (ai,wi) with wi{\thinspace}>{\thinspace}0. Let segmentS(i,j) of S be the consecutive subsequence of S starting index i to index j. The density of S(i,j) is d(i,j){\thinspace}={\thinspace}(ai{\thinspace}+{\thinspace}ai{\thinspace}+{\thinspace}1{\thinspace}+{\thinspace}...{\thinspace}+{\thinspace}aj)/(wi{\thinspace}+{\thinspace}wi{\thinspace}+{\thinspace}1{\thinspace}+{\thinspace}...{\thinspace}+{\thinspace}wj). The maximum-density segment problem is to find a maximum-density segment over all segments of S with L{\thinspace}≤{\thinspace}wi{\thinspace}+{\thinspace}wi{\thinspace}+{\thinspace}1{\thinspace}+{\thinspace}...{\thinspace}+{\thinspace}wj{\thinspace}≤{\thinspace}U. The best previously known algorithm for the problem, due to Goldwasser, Kao, and Lu, runs in O(n log(U{\thinspace}−{\thinspace}L{\thinspace}+{\thinspace}1)) time. In the present paper, we solve the problem in O(n) time. Our approach bypasses the complicated right-skew decomposition, introduced by Lin, Jiang, and Chao. As a result, our algorithm has the capability to process the input sequence in an online manner, which is an important feature for dealing with genome-scale sequences. Moreover, for an input sequence S representable in O(k) space, we also show how to exploit the sparsity of S and solve the maximum-density segment problem for S in O(k) time.",
 isbn="978-3-540-39658-1"
 }
+
+@InProceedings{charikar,
+author="Charikar, Moses",
+editor="Jansen, Klaus
+and Khuller, Samir",
+title="Greedy Approximation Algorithms for Finding Dense Components in a Graph",
+booktitle="Approximation Algorithms for Combinatorial Optimization",
+year="2000",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="84--95",
+abstract="We study the problem of finding highly connected subgraphs of undirected and directed graphs. For undirected graphs, the notion of density of a subgraph we use is the average degree of the subgraph. For directed graphs, a corresponding notion of density was introduced recently by Kannan and Vinay. This is designed to quantify highly connectedness of substructures in a sparse directed graph such as the web graph. We study the optimization problems of finding subgraphs maximizing these notions of density for undirected and directed graphs. This paper gives simple greedy approximation algorithms for these optimization problems. We also answer an open question about the complexity of the optimization problem for directed graphs.",
+isbn="978-3-540-44436-7"
+}
+
+@misc{facebook,
+author = {Abbas, Khushnood},
+title = {Facebook wall post processed data},
+doi = {10.17632/4dwzvcdsv3.2},
+year = {2018},
+institution = {University of Electronic Science and Technology of China - Qingshuihe Campus}}

@@ -1,0 +1,5 @@
+__pycache
+.DS_Store
+data
+deprecated
+output*.png
