@@ -25,15 +25,16 @@ In order for you to use the algorithm you must download the [Facebook Wall Posts
 │ │ +-- __init__.py  
 │ │ +-- dbs.py  
 │ │ +-- graph.py  
-│ │ +-- segment.  
-│ +-- facebook.ipynb  
-│ +-- facebook.html
+│ │ +-- segment.py
+│ +-- notebooks   
+│ | +-- dbs.ipynb  
+│ │ +-- facebook.html
+│ │ +-- facebook.ipynb 
+│ | +-- graph.ipynb  
+│ | +-- segment.ipynb  
 │ +-- README.md  
 │ +-- .gitignore  
 │ +-- references.bib  
-│ +-- dbs.ipynb  
-│ +-- graph.ipynb  
-│ +-- segment.ipynb  
 ```
 
 For you to run it, i recommend creating an Anaconda virtual environment with python and pip and installing the packages indicated in the requirements.txt file.
