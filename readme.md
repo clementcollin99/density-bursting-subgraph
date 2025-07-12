@@ -15,7 +15,7 @@ The algorithm requires to solve two subproblems :
 2. the maximum density subsegment problem, which we solved using the first method described by Kai-min Chung and Hsueh-I Lu in _An Optimal Algorithm for the Maximum-Density Segment Problem_. Altough it's not the most efficient one, it did a great when dealing with small amounts of data.
 
 ## Instructions for use
-In order for you to use the algorithm you must download the [Facebook Wall Posts dataset](https://data.mendeley.com/datasets/4dwzvcdsv3/2), unzip it and add the _facebook.txt_ file to your project to the location indicated in the tree below.
+You must download the [Facebook Wall Posts dataset](https://data.mendeley.com/datasets/4dwzvcdsv3/2), unzip it and add the _facebook.txt_ file to this repo, at the location indicated in the tree below.
 
 ```
 +-- density_bursting_subgraph  
@@ -37,7 +37,7 @@ In order for you to use the algorithm you must download the [Facebook Wall Posts
 │ +-- references.bib  
 ```
 
-For you to run it, i recommend creating an Anaconda virtual environment with python and pip and installing the packages indicated in the requirements.txt file.
+Then, i recommend creating an Anaconda virtual environment with python and pip and installing the packages indicated in the requirements.txt file.
 
 ## References
 cf. references.bib
